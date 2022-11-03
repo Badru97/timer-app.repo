@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+.container{
+  margin-top: 15rem;
+  
+}
+#timeCountDown{
+  font-size: 5rem;
+  font-weight: bold;
+  color: azure;
+  margin-left: 1rem;
+}
+.button_section{
+  margin: 4rem 1rem 1rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+  
+}
+#lap{
+  color: blanchedalmond;
+  border-radius:50%;
+  border-color: rgb(99, 17, 51);
+  background-color: #b6af7672;
+  text-align: center;
+  padding:20px 15px ;
+}
+#start{
+  color: green;
+  border-radius:50%;
+  border-color: rgb(119, 114, 93);
+  background-color: #1e852372;
+  text-align: center;
+  padding:20px 15px ;
+}
