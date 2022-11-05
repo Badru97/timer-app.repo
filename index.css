@@ -1,7 +1,7 @@
 *{
   margin: 0;
   padding: 0;
-  background-color: black;
+  background-color: rgb(32, 30, 30);
 }
 
 .container{
@@ -40,7 +40,10 @@
 .laps{
   color: aliceblue;
 }
-#lapRecord{
+#laps{
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
+}
+li{
+  list-style: none;
 }

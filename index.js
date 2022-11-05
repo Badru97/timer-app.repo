@@ -60,8 +60,14 @@ function stopWatch(){
 
 
 lapBtn.addEventListener("click", function lapCount(){
-  lapNow = hour +" : " +minute +" : " +second+" : "+ count;
-  laps=document.getElementById("lapRecord").innerHTML + lapNow;
-  document.getElementById("lapRecord").innerHTML = laps;
-  console.log("lap");
-})
+    lapNow = hour +" : " +minute +" : " +second+" : "+ count;
+    laps=document.getElementById("lapRecord").innerHTML + lapNow;
+    document.getElementById("lapRecord").innerHTML = laps;
+    let newLine = document.createElement("li");
+    document.getElementById("lapRecord").appendChild(newLine)
+
+}
+)
+
+
+
